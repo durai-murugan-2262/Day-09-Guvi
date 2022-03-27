@@ -1,0 +1,57 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <label for="name">Name: </label>
+      <input type="text" id="name" name="name" placeholder="Enter Name here" />
+      <br />
+      <label for="standard">Select your standard: </label>
+      <select id="standard" name="standard">
+        <option value="X">X</option>
+        <option value="XI">XI</option>
+        <option value="XII">XII</option>
+      </select>
+      <br />
+      <label for="about">About yourself: </label>
+      <br />
+      <textarea id="about" name="about" rows="7" cols="25"> </textarea>
+      <br />
+      <fieldset>
+        <legend>School INFO</legend>
+        <label for="School Name">School Name: </label>
+        <input
+          type="text"
+          id="School Name"
+          name="scl name"
+          placeholder="Enter your school name "
+        />
+        <br />
+        <label for="city">City: </label>
+        <input list="city" placeholder="Choose your City" />
+        <datalist id="city">
+          <option value="Chennai"></option>
+          <option value="Bangalore"></option>
+          <option value="Mumbai"></option>
+          <option value="Kolkata"></option>
+          <option value="Delhi"></option>
+          <option value="Other"></option>
+        </datalist>
+        <br />
+        <label for="location">Location: </label>
+        <input
+          type="text"
+          id="location"
+          placeholder="Enter your school address"
+        />
+        <br />
+      </fieldset>
+      <button type="submit">Submit</button>
+      <br />
+    </form>
+  </body>
+</html>
